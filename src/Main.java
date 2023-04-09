@@ -15,8 +15,8 @@ public class Main {
         // новую переменную и выводите на экран
 
         int price = 10000;
-        int roublesForMile = 20;
-        int bonusMiles = price / roublesForMile;
+        int rublesForMile = 20;
+        int bonusMiles = price / rublesForMile;
         System.out.println("Спасибо за покупку, вам зачислего " + bonusMiles + " бонусных миль");
 
 
