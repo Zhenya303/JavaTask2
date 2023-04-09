@@ -15,9 +15,9 @@ public class Main {
         // новую переменную и выводите на экран
 
         int price = 10000;
-        int i = 20;
-        int bonus = price/i;
-        System.out.println("Спасибо за покупку, вам зачислего " + bonus + " бонусных миль");
+        int roublesForMile = 20;
+        int bonusMiles = price / roublesForMile;
+        System.out.println("Спасибо за покупку, вам зачислего " + bonusMiles + " бонусных миль");
 
 
     }
